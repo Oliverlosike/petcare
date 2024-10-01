@@ -1,0 +1,15 @@
+my_dinner_form.dinner_form:
+  path: '/dinner-subscription'
+  defaults:
+    _form: '\Drupal\my_dinner_form\Form\DinnerSubscriptionForm'
+    _title: 'Dinner Subscription Form'
+  requirements:
+    _permission: 'access content'
+
+my_dinner_form.dinner_subscription:
+  path: '/dinner-subscription/{fav_food}'
+  defaults:
+    _controller: '\Drupal\my_dinner_form\Controller\DinnerSubscriptionController::confirmationPage'
+    _title: 'Dinner Subscription Confirmation'
+  requirements:
+    _permission: 'access content'

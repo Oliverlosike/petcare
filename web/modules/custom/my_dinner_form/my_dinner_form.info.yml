@@ -1,0 +1,7 @@
+name: 'my_dinner_form'
+type: module
+description: 'A demo module for custom blocks'
+core_version_requirement: ^9 || ^10
+package: Custom
+version: '1.0'
+dependencies: []

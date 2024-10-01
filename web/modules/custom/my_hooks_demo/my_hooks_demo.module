@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_user_login().
+ *
+ * This function is triggered when a user successfully logs in.
+ */
+function my_hooks_demo_user_login($account) {
+  // Add a welcome message when a user logs in.
+ \Drupal::messenger()->addMessage(t('Hello @name, welcome back!', ['@name' => $account->getDisplayName()]));
+}

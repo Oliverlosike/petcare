@@ -1,0 +1,7 @@
+name: 'my_form_demo'
+type: module
+description: 'A demo module for creating forms in Drupal.'
+core_version_requirement: ^9 || ^10
+package: Custom
+version: '1.0'
+dependencies: []

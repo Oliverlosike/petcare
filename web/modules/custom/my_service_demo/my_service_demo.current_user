@@ -1,0 +1,4 @@
+services:
+  my_services_demo.current_user:
+    class: Drupal\my_services_demo\CurrentUserService
+    arguments: ['@current_user']

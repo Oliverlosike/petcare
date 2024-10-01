@@ -1,0 +1,23 @@
+my_block_demo.bed_small:
+  path: '/bed/small'
+  defaults:
+    _controller: '\Drupal\my_block_demo\Controller\BedController::small'
+    _title: 'A small bed'
+  requirements:
+    _permission: 'access content'
+
+my_block_demo.bed_medium:
+  path: '/bed/medium'
+  defaults:
+    _controller: '\Drupal\my_block_demo\Controller\BedController::medium'
+    _title: 'A medium bed'
+  requirements:
+    _permission: 'access content'
+
+my_block_demo.bed_large:
+  path: '/bed/large'
+  defaults:
+    _controller: '\Drupal\my_block_demo\Controller\BedController::large'
+    _title: 'A large bed'
+  requirements:
+    _permission: 'access content'

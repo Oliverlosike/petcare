@@ -1,0 +1,7 @@
+name: 'My Route Demo'
+type: module
+description: 'A simple module to demonstrate basic routing in Drupal.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies: []
+version: 1.0

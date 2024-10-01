@@ -1,0 +1,7 @@
+name: 'my_hooks_demo'
+type: module
+description: 'A demo module to practice hooks.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies: []
+version: '1.0.0'
